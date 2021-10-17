@@ -10,6 +10,13 @@
 
 }
 
+
+
+    
+
+
+
+
 :root{
     --font-primaria: "Baloo Da 2", serif;
     --font-secundaria: "Josefin Sans", serif;
@@ -99,6 +106,7 @@ header{
     
 }
 
+
 .banner button{
     font-family: var(--font-action);
     color:#fff;
@@ -169,9 +177,15 @@ header{
 }
 
 .social-media i{
+    color: rgba(255, 255, 255, 00.5s);
     height: 2.5rem;
     width: 2.5rem;
     font-size: 2rem;
     display: flex;
     align-items: center;
+}
+
+.social-media i:hover{
+    color: rgb(124, 75, 172);
+   
 }
