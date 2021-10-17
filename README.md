@@ -6,6 +6,8 @@ Um projeto para testes
 
 o controle de tarefas desse projeto sera realizado pelo GitHub
 
+📅 17/10 - Criação do menu
+
 ## Icones
 
 - :package: Nova funcionalidade<br>
