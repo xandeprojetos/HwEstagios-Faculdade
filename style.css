@@ -27,7 +27,7 @@ header{
     height: 100%;            /*  ajustando largura, altura e opacidade da imagem */
     object-fit: cover;
     opacity: 50%;
-    animation: zoom 25s ;
+    animation: zoom 10s ;
 }
 
 @keyframes zoom {
@@ -54,7 +54,7 @@ header{
     line-height: 3.5rem;
     margin-bottom: 2rem;
     opacity: 100%;
-    animation: MovBanner 1s forwards;
+    animation: MovBanner 1s 0.7s forwards;
     
 }
 
@@ -64,7 +64,7 @@ header{
     font-size: 2rem;                 /* alterando o paragrafo abaixo do titulo */
     text-shadow: .2rem .2rem  rgba(0,0,0,0.8);
     margin-bottom: 2rem;
-    animation: MovBanner 1s forwards;
+    animation: MovBanner 1s 0.5s forwards;
     
 }
 
@@ -81,7 +81,7 @@ header{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    animation: MovBanner 1s forwards;
+    animation: MovBanner 1s 0.9s forwards;
     
 
 }
