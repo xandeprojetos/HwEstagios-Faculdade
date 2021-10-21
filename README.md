@@ -15,3 +15,5 @@ o controle de tarefas desse projeto sera realizado pelo GitHub
 - :up: Atualização<br>
 - :zap: Correção de bug<br>
 - :checkered_flag: Release<br>
+
+<a href="https://xandeprojetos.github.io/portfolio/index.html"> Executar o site
