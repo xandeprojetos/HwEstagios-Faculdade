@@ -240,7 +240,7 @@ header{
 .vantagens{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(6, 4rem);
+    grid-template-rows: repeat(6, 6rem);
 
 }
 
