@@ -241,6 +241,7 @@ header{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(6, 6rem);
+    row-gap: ..5rem;
 
 }
 
