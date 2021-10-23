@@ -8,6 +8,7 @@ o controle de tarefas desse projeto sera realizado pelo GitHub
 
 📅 17/10 - Criação do menu
 📅 19/10 - Crianção da caixa vantagens ( Falta Colocar os icones)
+📅 23/10 - **LEMBRETE** - Colocar icones na parte de vantagens
 
 ## Icones
 
