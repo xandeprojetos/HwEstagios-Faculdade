@@ -129,7 +129,7 @@ header{
 
 .banner h1{
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 5rem;
     font-family: var(--font-primaria);
     font-weight: 100;                            /* Alterando o título principal*/
     text-shadow: .2rem .2rem 2px rgba(33, 33, 33, 0.8);
@@ -240,6 +240,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .social-media i{
@@ -256,6 +257,12 @@ header{
 }
 
 /* ----------------------- PARTE DAS VANTAGENS ---------------*/
+.sessao-vantagens{
+    width: 100%;
+    height: 100%;            /*  ajustando largura, altura e opacidade da imagem */
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
+}
 
 .vantagens{
     display: grid;
@@ -287,15 +294,12 @@ header{
 }
 .vantagem:nth-child(6){
     grid-column: 11 / 14;
-    grid-row: 5 / -1+;
+    grid-row: 5 / -1;
 }
 
-.sessao-vantagens{
-    background-color: rgba(109, 107, 107, 0.8);
-}
 
 .sessao-header{
-    display: flex;
+    display: flex;             /* Alinhando o cabeçalho ao centro*/
     align-items: center;
     justify-content: center;
     
@@ -344,4 +348,91 @@ header{
     width: 100%;
 }
 
+.projetos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    width: 18rem;
+    height: 25rem;
+    position: relative;
+  }
+  
+  .card-img-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    border-radius: 0.5rem;
+  }
+  
+  .card-img-wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .card:hover .card-img-wrapper img {
+    opacity: 0.5;
+  }
+  
+  .card-info {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 2rem;
+    text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
+    transition: all 0.3s;
+  }
+  
+  .card-info h2 {
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    font-weight: 500;
+    color: #eee;
+  }
+  
+  .card-info h3 {
+    font-family: var(--font-action);
+    font-weight: bolder;
+    color: #ff4081;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-info p {
+    font-family: var(--font-secundary);
+    color: #eee;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to left, #a044ff, #6a3093);
+    font-family: var(--font-action);
+    color: #eee;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+    
+    }
 
+ 
+  
+  .card-info button{
+    width: 8rem;
+    height: 2.5rem;
+  }
+  
+  .card:hover .card-info{
+    bottom: 2rem;
+    opacity: 1;
+    visibility: visible;
+  }
