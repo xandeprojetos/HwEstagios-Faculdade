@@ -121,7 +121,7 @@ header{
 .banner{
     position: absolute;
     top: 30%;                    /* Alterando os textos */
-    left: 15%;
+    left: 5%;
 }
 
 .banner h1{
@@ -140,7 +140,7 @@ header{
 .banner p{
     font-family: var(--font-secundaria);
     color: #fff;
-    font-size: 2rem;                 /* alterando o paragrafo abaixo do titulo */
+    font-size: 1rem;                 /* alterando o paragrafo abaixo do titulo */
     text-shadow: .2rem .2rem  rgba(33, 33, 33, 0.8);
     margin-bottom: 2rem;
     animation: MovBanner 1s 0.5s forwards;
