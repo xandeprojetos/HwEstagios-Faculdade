@@ -452,16 +452,69 @@ header{
   }
 
   .passoapasso-wrapper{
-      width: 60%;
-      height: 60%;
+      width: 70%;
+      height: 90%;
       display: flex;
+      box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
 
 
   }
 
-  .passoapasso-left{
+  .passoapasso-left{             /* Imagem do cadastro */
       width: 35%;
       background: linear-gradient(rgba(15, 15 ,15, 0.6), rgba(22,22,22,0.9)), 
       url(/imagens/cadastro.png);
       background-size: cover;
   }
+
+  .passoapasso-right{
+    width: 65%;
+    background-color: #eee;
+    padding: 1rem 2rem 2rem 2rem;
+  }
+
+  .sessao-passoapasso h1{
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-primaria);     
+    color: #262626;
+    font-size: 3rem;
+    font-weight: lighter;
+  }
+
+  .sessao-passoapasso form{
+      width: 100%;
+      display: flex;                   /* Centralização do formulario*/
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .input-group{
+      position: relative;
+  }
+
+  .field {
+    background:transparent;
+    border: none;
+    width: 20rem;
+    font-size: 1rem;
+    font-family: var(--font-action);
+    border-bottom: 2px dashed #636363;
+    height: 3rem;
+    outline: none;
+    margin: 3rem 0;
+    color: rebeccapurple;
+  }
+  
+
+  .field-label{
+      position: absolute;
+      left: 0;
+      top: 2rem;
+      font-family: var(--font-secundaria);
+      text-transform: uppercase;
+      font-size: 1.2;
+    }
+
+
+
