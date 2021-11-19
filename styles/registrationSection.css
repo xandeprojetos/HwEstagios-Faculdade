@@ -73,7 +73,7 @@
     text-transform: uppercase;
     transition: all 0.3s;
   }
-  
+
   .field:focus ~ label {
     top: 0;
     font-size: 0.7rem;
@@ -121,7 +121,7 @@
       width:13.7rem;
     }
     input#email.field{
-      width: 5rem;
+      width: 13.7rem;
     }
     textarea#mensagem.field{
       width: 13.7rem;
