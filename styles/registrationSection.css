@@ -34,6 +34,7 @@
     color: #272727;
     font-size: 3rem;
     font-weight: lighter;
+    
   }
   
   .sessao-cadastro form {
@@ -44,6 +45,7 @@
   }
   .input-group {
     position: relative;
+  
   }
   .field {
     background: transparent;
@@ -61,6 +63,17 @@
     max-width: 25rem;
     max-height: 3rem;
   }
+
+  .field-label {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    font-size: 1rem;
+    font-family: var(--font-secundary);
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+  
   .field:focus ~ label {
     top: 0;
     font-size: 0.7rem;
@@ -108,12 +121,14 @@
       width:13.7rem;
     }
     input#email.field{
-      width: 13.7rem;
+      width: 5rem;
     }
     textarea#mensagem.field{
       width: 13.7rem;
     }
+    }
     .cadastro-right h1{
       font-size:2rem;
     }
-  }
+  
+

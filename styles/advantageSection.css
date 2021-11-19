@@ -76,7 +76,7 @@
     margin-top: 1rem;
   }
   
-  .vantagens-img-wrapper {
+  .vantagens-img-wrapper{
     grid-column: 7 / 12;
     grid-row: 2 / 8;
     width: 80%;
