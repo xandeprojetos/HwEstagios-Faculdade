@@ -17,7 +17,7 @@
   .cadastro-left {
     width: 35%;
     background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
-      url(imagens/cadastro.png);
+    url(imagens/cadastro.jpg);
     background-size: cover;
   }
   
@@ -91,6 +91,7 @@
     cursor: pointer;
     text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
     box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+    
   }
   @media screen and (max-width:425px){
     input#nome.field{

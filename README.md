@@ -17,4 +17,4 @@ o controle de tarefas desse projeto sera realizado pelo GitHub
 - :zap: Correção de bug<br>
 - :checkered_flag: Release<br>
 
-<a href="https://xandeprojetos.github.io/portfolio/index.html" target="_blank">Executar o site</a>
+<a href="https://xandeprojetos.github.io/HwEstagios-Faculdade/" target="_blank">Executar o site</a>
